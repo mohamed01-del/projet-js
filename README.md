@@ -1,10 +1,10 @@
-# 🚀 Task Manager API
+# Task Manager API
 
 > A robust, secure, and production-ready REST API for managing personal tasks. Built with Node.js, Express, and structured for local JSON file persistence.
 
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
-## 🌟 Key Features
+##  Key Features
 
 - **Robust Input Validation:** Utilizes `express-validator` to ensure all incoming data is clean, secure, and formatted correctly.
 - **Advanced Error Handling:** A centralized global error handler catches all asynchronous errors and returns industry-standard HTTP status codes and structured responses.
@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 **1. Clone the repository and navigate into it**
 
@@ -40,16 +40,16 @@ npm start     # Production mode
 
 ---
 
-## 📖 API Documentation
+##  API Documentation
 
-### 🔒 Authentication Endpoints
+###  Authentication Endpoints
 
 | Method | Endpoint | Description | Status Code |
 |--------|----------|-------------|-------------|
 | `POST` | `/api/auth/register` | Register a new user | `201 Created` |
 | `POST` | `/api/auth/login` | Authenticate & receive JWT | `200 OK` |
 
-### 📝 Task Endpoints *(Requires Bearer Token)*
+###  Task Endpoints *(Requires Bearer Token)*
 
 | Method | Endpoint | Description | Status Code |
 |--------|----------|-------------|-------------|
@@ -62,7 +62,7 @@ npm start     # Production mode
 
 ---
 
-## 🔍 Advanced Query Parameters (GET `/api/tasks`)
+##  Advanced Query Parameters (GET `/api/tasks`)
 
 Enhance your GET requests using these query parameters:
 
@@ -77,7 +77,7 @@ Enhance your GET requests using these query parameters:
 
 ---
 
-## 👨‍💻 Project Structure Overview
+##  Project Structure Overview
 
 ```text
 task-manager-api/
